@@ -1,4 +1,4 @@
-# change config:
+# Change config:
 ```json
 {
     "guild_id": "",
