@@ -9,7 +9,7 @@ module.exports = (client) => {
     let _message;
     let chatCount = 0;
 
-    let context_embed = new EmbedBuilder().setImage('');
+    let context_embed = new EmbedBuilder().setImage('https://media.discordapp.net/attachments/1210891432051744839/1240283735736324147/ezgif-2-b8fb76ac6d.gif?ex=667e077d&is=667cb5fd&hm=e3c6b51ce54c7eecb48ba71bf98987c3297cc4a791d17f6c4ccfe40ac52e0f36&=');
     let stats_message = (_totalChats) => {return `> * \`${_totalChats}\` Chats Since Uptime`};
 
     const chatWithARandomPerson = new ButtonBuilder()
